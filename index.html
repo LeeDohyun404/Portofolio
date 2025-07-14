@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Firman Muhammad Gandhi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="bg-animation"></div>
+    <div class="particles" id="particles"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="nav-container">
+            <div class="logo">Firman M. Gandhi</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link">Beranda</a></li>
+                    <li><a href="#projects" class="nav-link">Proyek</a></li>
+                    <li><a href="#about" class="nav-link">Tentang</a></li>
+                    <li><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="profile-container">
+                    <div class="profile-glow"></div>
+                    <img src="img/profile.jpg" alt="Firman Gandhi" class="profile-image">
+                </div>
+                <h1 class="hero-title">Firman Muhammad Gandhi</h1>
+                <p class="hero-subtitle">Web Developer & Data Enthusiast</p>
+                <div class="hero-description">
+                    <p>Menciptakan solusi digital yang inovatif dan user-friendly</p>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Proyek Unggulan</h2>
+                    <p class="section-subtitle">Beberapa karya yang telah saya buat</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-coffee"></i>
+                            </div>
+                            <div class="card-status">
+                                <span class="status-badge completed">Selesai</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Website UMKM Classic Coffee 789</h3>
+                            <p>Merancang dan membangun website e-commerce fungsional untuk kedai kopi dengan sistem manajemen produk dan pemesanan yang terintegrasi.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">PHP</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">HTML/CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/LeeDohyun404/classic-coffee-789" target="_blank" class="btn-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>View Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-signature"></i>
+                            </div>
+                            <div class="card-status">
+                                <span class="status-badge completed">Selesai</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Aplikasi Digital Signature</h3>
+                            <p>Membangun aplikasi web untuk tanda tangan digital menggunakan algoritma SHA-256 dan RSA untuk keamanan dokumen.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">Cryptography</span>
+                                <span class="tech-badge">SHA-256</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="https://github.com/LeeDohyun404/Digital-Signature-SHA-256-dan-RSA" target="_blank" class="btn-link">
+                                    <i class="fab fa-github"></i>
+                                    <span>View Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-header">
+                            <div class="card-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="card-status">
+                                <span class="status-badge completed">Selesai</span>
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Analisis Data Pendidikan</h3>
+                            <p>Menganalisis dan memvisualisasikan data angka anak tidak sekolah untuk memahami tren pendidikan di Indonesia.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">Pandas</span>
+                                <span class="tech-badge">Matplotlib</span>
+                                <span class="tech-badge">Seaborn</span>
+                            </div>
+                            <div class="card-actions">
+                                <a href="#" class="btn-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    <span>View Analysis</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Tentang Saya</h2>
+                    <p class="section-subtitle">Mengenal lebih dekat dengan saya</p>
+                </div>
+                <div class="about-content" data-aos="fade-up">
+                    <div class="about-text">
+                        <p class="lead">
+                            Saya Firman Muhammad Gandhi, seorang mahasiswa Ilmu Komputer dengan passion yang mendalam pada pengembangan web dan analisis data.
+                        </p>
+                        <p>
+                            Dengan pengalaman dalam berbagai teknologi web modern, saya selalu berusaha menciptakan solusi yang tidak hanya fungsional, tetapi juga memberikan pengalaman pengguna yang luar biasa. Saya percaya bahwa teknologi harus melayani kebutuhan manusia dengan cara yang intuitif dan efisien.
+                        </p>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Mari Terhubung</h2>
+                <p class="section-subtitle">Siap untuk berkolaborasi dalam proyek berikutnya?</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>firmangandhi361@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>+62 895-3616-19272</span>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:firmangandhi361@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/62895361619272" target="_blank" class="social-link" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/frmngndhi_/?utm_source=ig_web_button_share_sheet" target="_blank" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100025289201064" target="_blank" class="social-link" title="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Firman Muhammad Gandhi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
